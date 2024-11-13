@@ -1,5 +1,7 @@
 # PHP Autoloader Hands-On Crush Course by FarhanShares.Com
 
+![PHP Autoloader Hands-On Crush Course by FarhanShares.Com](screenshot.png "Screenshot of the application")
+
 This is a hands-on crash course on how to build a PHP autoloader.
 
 ## How to navigate the codebase?
