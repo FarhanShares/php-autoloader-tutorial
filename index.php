@@ -1,9 +1,10 @@
 <?php
-require_once realpath('autoloader.php');
+require realpath('autoloader.php');
 
 /**
- * As we use the namespace, the autoloader will load the class from the directory.
- * @see `autoloader.php` for the patterns we've used to achieve this.
+ * As we use the namespace, the autoloader will load the class from the directories.
+ * @see `autoloader.php` for the patterns we've used to identify the
+ * correct classes from the directories.
  */
 
 use FarhanIsraq\Display;

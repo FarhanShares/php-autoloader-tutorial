@@ -1,12 +1,20 @@
 <?php
+
+/**
+ * Define the namespace prefix and source directory for the application.
+ */
 define('APP_NAMESPACE_PREFIX', 'FarhanIsraq');
 define('APP_SRC_DIR', __DIR__ . '/src');
 
 define('PLUGIN_ENTRY_POINT_SUFFIX', 'Plugin');
 define('PLUGINS_DIR', __DIR__ . '/plugins');
 
+/**
+ * Register the autoloader with the SPL autoloader stack with our own logic.
+ *
+ * @param string $class The fully qualified class name that has been accessed.
+ */
 spl_autoload_register(function ($class) {
-
     $base = PLUGINS_DIR;
     $path = str_replace('\\', DIRECTORY_SEPARATOR, $class);
 
