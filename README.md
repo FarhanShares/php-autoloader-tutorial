@@ -16,4 +16,5 @@ This is a hands-on crash course on how to build a PHP autoloader.
 
 ## Visual Learner?
 
-- Watch the video tutorial on [YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- Video tutorial coming soon!
+<!-- - Watch the video tutorial on [YouTube](https://www.youtube.com/watch?v=) -->
